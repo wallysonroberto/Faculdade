@@ -1,2 +1,1 @@
-# Faculdade
-Trabalhos academicos e aprendendo utilizar o git
+Vitu fez uma alteração mas eu tbm vou fazer ( master )
