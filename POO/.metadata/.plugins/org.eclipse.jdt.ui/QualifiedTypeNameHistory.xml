@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Enum"/>
+<fullyQualifiedTypeName name="java.lang.EnumConstantNotPresentException"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.Process"/>
+<fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="modelo.Aluno"/>
+<fullyQualifiedTypeName name="modelo.Disciplina"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="modelo.Avaliacao"/>
+<fullyQualifiedTypeName name="modelo.Subavaliacao"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+</qualifiedTypeNameHistroy>

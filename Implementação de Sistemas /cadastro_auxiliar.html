@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cadastro de Auxiliar</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="reset.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">GeraPlantão</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Menu</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Cadastros
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Cadastrar Médicos</a></li>
+							<li><a href="#">cadastrar Auxiliares</a></li>
+							
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Plantões
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Gerar Plantão</a></li>
+								<li><a href="#">Montar Plantão</a></li>
+								
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Perfil</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sair</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="container" style=" height:auto;width: 900;background-color: #F6CED8;position: relative;margin-top: 150px;padding-top: 50px;padding-bottom: 50px;margin-left: 100px;margin-right: 500px 	">
+				<form class="form-horizontal" action="/action_page.php"  >
+					<div class="form-group">
+						<label class="control-label col-sm-2">Nome:</label>
+						<div class="col-sm-4">
+							<input type="text" class="form-control"  placeholder="Coloque seu nome">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="pwd">Email</label>
+						<div class="col-sm-4"> 
+							<input type="email" class="form-control"  placeholder="coloque seu email">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="pwd">Login</label>
+						<div class="col-sm-4"> 
+							<input type="email" class="form-control"  placeholder="coloque a seu login">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="pwd">Senha</label>
+						<div class="col-sm-4"> 
+							<input type="password" class="form-control"  placeholder="coloque senha">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2">CPF ou RG</label>
+						<div class="col-sm-4">
+							<input type="number" class="form-control" placeholder="CPF ou RG">
+						</div>
+					</div>
+
+					<div class="form-group"> 
+						<div class="col-sm-offset-2 col-sm-10">
+							<button type="submit" class="btn btn-primary">Cadastrar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</body>
+		</html>
